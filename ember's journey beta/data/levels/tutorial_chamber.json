@@ -1,0 +1,49 @@
+{
+  "name": "Tutorial Chamber",
+  "width": 480,
+  "height": 180,
+  "tiles": [
+    {
+      "x": 0,
+      "y": 164,
+      "width": 480,
+      "height": 16,
+      "type": "floor",
+      "collision": true
+    }
+  ],
+  "spawns": [
+    {
+      "type": "enemy",
+      "x": 200,
+      "y": 140,
+      "variant": "hollow_soldier"
+    },
+    {
+      "type": "npc",
+      "x": 280,
+      "y": 130,
+      "npc_id": "scribe"
+    },
+    {
+      "type": "collectible",
+      "x": 150,
+      "y": 100,
+      "item_type": "soul_ember"
+    },
+    {
+      "type": "collectible",
+      "x": 400,
+      "y": 100,
+      "item_type": "memory_fragment"
+    }
+  ],
+  "interactive_objects": [
+    {
+      "type": "bench",
+      "x": 100,
+      "y": 148
+    }
+  ],
+  "transitions": []
+}
